@@ -97,7 +97,7 @@ rules:
       allow-element-with-id: false
   no-trailing-zero: 1
   no-transition-all: 0
-  no-url-protocols: 1
+  no-url-protocols: 0
   no-vendor-prefixes:
     - 1
     - additional-identifiers: []
@@ -149,7 +149,7 @@ rules:
         - 1
         - 2
         - 3
-  single-line-per-selector: 1
+  # single-line-per-selector: 1
   space-after-bang:
     - 1
     - include: false
