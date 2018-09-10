@@ -1,0 +1,16 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a {
+  color: $color-text;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+}
