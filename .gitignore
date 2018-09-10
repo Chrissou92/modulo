@@ -1,0 +1,6 @@
+public/
+.DS_STORE
+wp-config.php
+wp/
+vendor/
+.htaccess

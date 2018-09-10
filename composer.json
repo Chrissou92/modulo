@@ -1,0 +1,24 @@
+{
+    "name": "root/modulo",
+    "authors": [
+        {
+            "name": "Chrissou",
+            "email": "nicolchristelle@gmail.com"
+        }
+    ],
+    "repositories": [{
+   "type": "composer",
+   "url": "https://wpackagist.org"
+ }],
+ "require": {
+   "johnpbloch/wordpress": "4.*",
+   "wpackagist-theme/twentyseventeen": "*"
+ },
+ "extra": {
+   "wordpress-install-dir": "wp",
+   "installer-paths": {
+     "content/plugins/{$name}/": ["type:wordpress-plugin"],
+     "content/themes/{$name}/": ["type:wordpress-theme"]
+   }
+ }
+}
