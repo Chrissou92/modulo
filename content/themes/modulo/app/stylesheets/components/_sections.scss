@@ -1,5 +1,6 @@
 .section {
-    margin: .5em 1.5em;
+    margin: auto;
+    width: 80%;
 
 
     &__title {
@@ -8,26 +9,78 @@
         text-decoration: underline;
 
         &__text {
-            text-align: justify;
+            margin:  4em;
+            // width: 30em;
         }
     }
 }
 
 .section-contact {
-    margin-top: 1.5em;
+    margin: 1.5em;
     text-align: center;
 
+    &__image {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: auto;
+        text-align: center;
+        width: 40%;
+    }
+
     &__title {
-        font-size: 1em;
+        font-size: 1.5em;
         font-weight: bold;
         margin-bottom: .5em;
+        margin-top: 1em;
     }
 
     .button-contact {
         background-color: $color-blue;
         border: 0;
         font-size: 1em;
+        margin-bottom: 1em;
         margin-top: .5em;
         padding: .7em;
     }
+}
+
+.section-divers {
+    background-color: $color-text;
+    color: $color-white;
+    padding: 2em;
+}
+
+.column {
+
+
+    &-title {
+        font-weight: 400;
+        margin-bottom: .5em;
+        text-align: center;
+}
+
+    &-service {
+        display: flex;
+        flex-direction: column;
+        padding-left: 4em;
+    }
+
+    &-news {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &-input {
+        padding: 1em;
+    }
+
+    &-button {
+        font-size: 14px;
+        margin: auto;
+        margin-top: 1em;
+        text-align: center;
+        width: 10em;
+    }
+
 }
