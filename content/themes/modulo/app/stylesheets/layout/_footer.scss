@@ -1,0 +1,19 @@
+.footer {
+    background-color: lighten($color-grey, 30%);
+    display: inline-flex;
+    justify-content: space-between;
+    padding: 2em;
+    text-align: center;
+    width: 100%;
+
+    &-text {
+        margin-left: 1.5em;
+    }
+
+    &-cgu {
+        color: $color-text;
+        margin-right: 1.5em;
+        text-decoration: none;
+    }
+
+}
