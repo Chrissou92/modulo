@@ -1,0 +1,33 @@
+.section {
+    margin: .5em 1.5em;
+
+
+    &__title {
+        font-size: 1em;
+        font-weight: bold;
+        text-decoration: underline;
+
+        &__text {
+            text-align: justify;
+        }
+    }
+}
+
+.section-contact {
+    margin-top: 1.5em;
+    text-align: center;
+
+    &__title {
+        font-size: 1em;
+        font-weight: bold;
+        margin-bottom: .5em;
+    }
+
+    .button-contact {
+        background-color: $color-blue;
+        border: 0;
+        font-size: 1em;
+        margin-top: .5em;
+        padding: .7em;
+    }
+}

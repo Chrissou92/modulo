@@ -59,29 +59,29 @@
         </div>
 
         <section class="pages">
-            <div class="section">
-                <h2 class="section__title">Qui sommes nous</h2>
-                <p class="section__text">Nous sommes une agence web fictive,
+            <div class="section__one">
+                <h2 class="section__one__title">Qui sommes nous</h2>
+                <p class="section__one__text">Nous sommes une agence web fictive,
                     pour permettre à la créatrice de montrer son savoir faire en wordpress. Cette agence sera peut être un jour réel !</p>
             </div>
 
-            <div class="section">
-                <h2 class="section__title">Services</h2>
-                <p class="section__text">Nous proposons la création de site en Wordpress, mais aussi le référencement,design et création de logos, identité visuelle, communication web</p>
+            <div class="section__two">
+                <h2 class="section__two__title">Services</h2>
+                <p class="section__two__text">Nous proposons la création de site en Wordpress, mais aussi le référencement,design et création de logos, identité visuelle, communication web</p>
             </div>
-            <div class="section">
-                <h2 class="section__title">Références</h2>
-                <p class="section__text">Ce trouve ici les projets de fin d'études, ainsi que les projets personnels</p>
+            <div class="section__three">
+                <h2 class="section__three__title">Références</h2>
+                <p class="section__three__text">Ce trouve ici les projets de fin d'études, ainsi que les projets personnels</p>
             </div>
-            <div class="section">
-                <h2 class="section__title">Actualités</h2>
-                <p class="section__text">Pour suivre notre avancé, ainsi que les nouvelles créations !</p>
+            <div class="section__four">
+                <h2 class="section__four__title">Actualités</h2>
+                <p class="section__four__text">Pour suivre notre avancé, ainsi que les nouvelles créations !</p>
             </div>
         </section>
 
         <div class="container">
             <section class="section-contact">
-                <h3 class="section-contact__title">Des projets ? des questions ?</h3>
+                <h3 class="section-contact-title">Des projets ? des questions ?</h3>
                 <p>contactez-nous au +33 (0)624 758 612 ou par mail modulo@gmail.com</p>
                 <button class="button-contact">Contactez-nous</button>
             </section>
@@ -125,3 +125,5 @@
 </body>
 
 </html>
+
+}
